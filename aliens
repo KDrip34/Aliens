@@ -1,0 +1,19 @@
+alien_color = ['green' , 'red' , 'yellow']
+if 'green' in alien_color:
+	print("Congrats you have just earned 5 points")
+if 'red' in alien_color:
+	print("Im sorry but you have lost 5 points")
+if 'yellow' in alien_color:
+	print("Outstanding you have just earned 10 points!")	
+alien_color = 'green'
+if 'green' in alien_color:
+	print("Congrats you have just earned 5 points")
+alien_color = 'yellow'	
+if 'green' in alien_color:
+	print("Congrats you have just earned 5 points")	
+alien_0 = {'color': 'green' , 'points':5}
+alien_1 = {'color': 'yellow', 'points':10}
+alien_2 = {'color': 'red', 'points':5}
+aliens = [alien_0, alien_1, alien_2]
+for alien in aliens:
+	print(alien)
